@@ -25,6 +25,7 @@
 		51089B2C27B698BF00EA3B3A /* SampleOutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2B27B698BF00EA3B3A /* SampleOutlineGroupView.swift */; };
 		51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2D27B7564900EA3B3A /* SampleLinkView.swift */; };
 		51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2F27B756B700EA3B3A /* SampleListView.swift */; };
+		51089B3227B758BA00EA3B3A /* SampleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3127B758BA00EA3B3A /* SampleSectionView.swift */; };
 		51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */; };
 		51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36F027B63DD4002EEBA4 /* ContentView.swift */; };
 		51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA36F227B63DD5002EEBA4 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		51089B2B27B698BF00EA3B3A /* SampleOutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleOutlineGroupView.swift; sourceTree = "<group>"; };
 		51089B2D27B7564900EA3B3A /* SampleLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLinkView.swift; sourceTree = "<group>"; };
 		51089B2F27B756B700EA3B3A /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
+		51089B3127B758BA00EA3B3A /* SampleSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSectionView.swift; sourceTree = "<group>"; };
 		51EA36EB27B63DD4002EEBA4 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		51EA36F027B63DD4002EEBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				51089B2B27B698BF00EA3B3A /* SampleOutlineGroupView.swift */,
 				51089B2D27B7564900EA3B3A /* SampleLinkView.swift */,
 				51089B2F27B756B700EA3B3A /* SampleListView.swift */,
+				51089B3127B758BA00EA3B3A /* SampleSectionView.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				51EA373827B6597B002EEBA4 /* SampleSliderView.swift in Sources */,
 				51EA371C27B63E39002EEBA4 /* FileItem.swift in Sources */,
 				51089B1D27B6934000EA3B3A /* ChildTossView.swift in Sources */,
+				51089B3227B758BA00EA3B3A /* SampleSectionView.swift in Sources */,
 				51089B1227B692F800EA3B3A /* SampleControlScrollView.swift in Sources */,
 				51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */,
 				51089B2227B694B500EA3B3A /* SampleLabelView.swift in Sources */,
