@@ -26,6 +26,22 @@
 		51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2D27B7564900EA3B3A /* SampleLinkView.swift */; };
 		51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2F27B756B700EA3B3A /* SampleListView.swift */; };
 		51089B3227B758BA00EA3B3A /* SampleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3127B758BA00EA3B3A /* SampleSectionView.swift */; };
+		51089B3427B75A1B00EA3B3A /* SampleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3327B75A1B00EA3B3A /* SampleMenuView.swift */; };
+		51089B3627B75AB000EA3B3A /* SampleColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3527B75AB000EA3B3A /* SampleColorPickerView.swift */; };
+		51089B3827B75AEA00EA3B3A /* SampleDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3727B75AEA00EA3B3A /* SampleDividerView.swift */; };
+		51089B3A27B75B2600EA3B3A /* SampleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3927B75B2600EA3B3A /* SampleProgressView.swift */; };
+		51089B3C27B75C4300EA3B3A /* SampleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3B27B75C4300EA3B3A /* SampleTabView.swift */; };
+		51089B3E27B75CFC00EA3B3A /* SamplePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3D27B75CFC00EA3B3A /* SamplePageView.swift */; };
+		51089B4027B7619E00EA3B3A /* SampleAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B3F27B7619E00EA3B3A /* SampleAnyView.swift */; };
+		51089B4227B761E700EA3B3A /* SampleColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4127B761E700EA3B3A /* SampleColorView.swift */; };
+		51089B4427B7620000EA3B3A /* SampleCamsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4327B7620000EA3B3A /* SampleCamsuleView.swift */; };
+		51089B4627B7621600EA3B3A /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4527B7621600EA3B3A /* AngularGradientView.swift */; };
+		51089B4827B7623000EA3B3A /* SampleAngleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4727B7623000EA3B3A /* SampleAngleView.swift */; };
+		51089B4A27B7624800EA3B3A /* SampleArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4927B7624800EA3B3A /* SampleArcView.swift */; };
+		51089B4C27B7626600EA3B3A /* SampleGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4B27B7626600EA3B3A /* SampleGradientView.swift */; };
+		51089B4E27B7627900EA3B3A /* SampleRotatedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4D27B7627900EA3B3A /* SampleRotatedShape.swift */; };
+		51089B5027B7628D00EA3B3A /* DrapInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4F27B7628D00EA3B3A /* DrapInfoView.swift */; };
+		51089B5227B763BC00EA3B3A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5127B763BC00EA3B3A /* AsyncImageView.swift */; };
 		51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */; };
 		51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36F027B63DD4002EEBA4 /* ContentView.swift */; };
 		51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA36F227B63DD5002EEBA4 /* Assets.xcassets */; };
@@ -88,6 +104,22 @@
 		51089B2D27B7564900EA3B3A /* SampleLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLinkView.swift; sourceTree = "<group>"; };
 		51089B2F27B756B700EA3B3A /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
 		51089B3127B758BA00EA3B3A /* SampleSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSectionView.swift; sourceTree = "<group>"; };
+		51089B3327B75A1B00EA3B3A /* SampleMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMenuView.swift; sourceTree = "<group>"; };
+		51089B3527B75AB000EA3B3A /* SampleColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleColorPickerView.swift; sourceTree = "<group>"; };
+		51089B3727B75AEA00EA3B3A /* SampleDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDividerView.swift; sourceTree = "<group>"; };
+		51089B3927B75B2600EA3B3A /* SampleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProgressView.swift; sourceTree = "<group>"; };
+		51089B3B27B75C4300EA3B3A /* SampleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTabView.swift; sourceTree = "<group>"; };
+		51089B3D27B75CFC00EA3B3A /* SamplePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageView.swift; sourceTree = "<group>"; };
+		51089B3F27B7619E00EA3B3A /* SampleAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnyView.swift; sourceTree = "<group>"; };
+		51089B4127B761E700EA3B3A /* SampleColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleColorView.swift; sourceTree = "<group>"; };
+		51089B4327B7620000EA3B3A /* SampleCamsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCamsuleView.swift; sourceTree = "<group>"; };
+		51089B4527B7621600EA3B3A /* AngularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientView.swift; sourceTree = "<group>"; };
+		51089B4727B7623000EA3B3A /* SampleAngleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAngleView.swift; sourceTree = "<group>"; };
+		51089B4927B7624800EA3B3A /* SampleArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleArcView.swift; sourceTree = "<group>"; };
+		51089B4B27B7626600EA3B3A /* SampleGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGradientView.swift; sourceTree = "<group>"; };
+		51089B4D27B7627900EA3B3A /* SampleRotatedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRotatedShape.swift; sourceTree = "<group>"; };
+		51089B4F27B7628D00EA3B3A /* DrapInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrapInfoView.swift; sourceTree = "<group>"; };
+		51089B5127B763BC00EA3B3A /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		51EA36EB27B63DD4002EEBA4 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		51EA36F027B63DD4002EEBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -268,6 +300,22 @@
 				51089B2D27B7564900EA3B3A /* SampleLinkView.swift */,
 				51089B2F27B756B700EA3B3A /* SampleListView.swift */,
 				51089B3127B758BA00EA3B3A /* SampleSectionView.swift */,
+				51089B3327B75A1B00EA3B3A /* SampleMenuView.swift */,
+				51089B3527B75AB000EA3B3A /* SampleColorPickerView.swift */,
+				51089B3727B75AEA00EA3B3A /* SampleDividerView.swift */,
+				51089B3927B75B2600EA3B3A /* SampleProgressView.swift */,
+				51089B3B27B75C4300EA3B3A /* SampleTabView.swift */,
+				51089B3D27B75CFC00EA3B3A /* SamplePageView.swift */,
+				51089B3F27B7619E00EA3B3A /* SampleAnyView.swift */,
+				51089B4127B761E700EA3B3A /* SampleColorView.swift */,
+				51089B4327B7620000EA3B3A /* SampleCamsuleView.swift */,
+				51089B4527B7621600EA3B3A /* AngularGradientView.swift */,
+				51089B4727B7623000EA3B3A /* SampleAngleView.swift */,
+				51089B4927B7624800EA3B3A /* SampleArcView.swift */,
+				51089B4B27B7626600EA3B3A /* SampleGradientView.swift */,
+				51089B4D27B7627900EA3B3A /* SampleRotatedShape.swift */,
+				51089B4F27B7628D00EA3B3A /* DrapInfoView.swift */,
+				51089B5127B763BC00EA3B3A /* AsyncImageView.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -420,31 +468,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				51089B2427B694C600EA3B3A /* SampleDisclosureGroupView.swift in Sources */,
+				51089B4A27B7624800EA3B3A /* SampleArcView.swift in Sources */,
 				51EA372C27B64370002EEBA4 /* ImageView.swift in Sources */,
 				51089B1E27B6934000EA3B3A /* ChildViewGroup.swift in Sources */,
 				51EA372527B63FF4002EEBA4 /* HomeSample.swift in Sources */,
+				51089B3C27B75C4300EA3B3A /* SampleTabView.swift in Sources */,
+				51089B3627B75AB000EA3B3A /* SampleColorPickerView.swift in Sources */,
 				51EA373227B6588A002EEBA4 /* SampleButtonView.swift in Sources */,
 				51EA373827B6597B002EEBA4 /* SampleSliderView.swift in Sources */,
 				51EA371C27B63E39002EEBA4 /* FileItem.swift in Sources */,
+				51089B4627B7621600EA3B3A /* AngularGradientView.swift in Sources */,
 				51089B1D27B6934000EA3B3A /* ChildTossView.swift in Sources */,
 				51089B3227B758BA00EA3B3A /* SampleSectionView.swift in Sources */,
 				51089B1227B692F800EA3B3A /* SampleControlScrollView.swift in Sources */,
 				51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */,
+				51089B4E27B7627900EA3B3A /* SampleRotatedShape.swift in Sources */,
 				51089B2227B694B500EA3B3A /* SampleLabelView.swift in Sources */,
+				51089B4C27B7626600EA3B3A /* SampleGradientView.swift in Sources */,
+				51089B4827B7623000EA3B3A /* SampleAngleView.swift in Sources */,
 				51EA373C27B65C1C002EEBA4 /* SampleLoginView.swift in Sources */,
 				51089B2627B6956400EA3B3A /* SampleEditButtonView.swift in Sources */,
+				51089B4427B7620000EA3B3A /* SampleCamsuleView.swift in Sources */,
 				51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */,
 				51EA371A27B63E1C002EEBA4 /* Profile.swift in Sources */,
 				51089B0C27B68A2E00EA3B3A /* TextFieldView.swift in Sources */,
 				51EA373627B65964002EEBA4 /* ToggleView.swift in Sources */,
+				51089B4227B761E700EA3B3A /* SampleColorView.swift in Sources */,
 				51089B1527B6932700EA3B3A /* WeatherRow.swift in Sources */,
 				51EA372827B64117002EEBA4 /* SampleSpacerView.swift in Sources */,
 				51EA373027B645DC002EEBA4 /* MatrixRainView.swift in Sources */,
+				51089B4027B7619E00EA3B3A /* SampleAnyView.swift in Sources */,
+				51089B5027B7628D00EA3B3A /* DrapInfoView.swift in Sources */,
 				51089B2C27B698BF00EA3B3A /* SampleOutlineGroupView.swift in Sources */,
 				51089B0E27B691A800EA3B3A /* SamplePickerView.swift in Sources */,
+				51089B3E27B75CFC00EA3B3A /* SamplePageView.swift in Sources */,
 				51089B1C27B6934000EA3B3A /* ChildViewBuilder.swift in Sources */,
 				51EA373A27B65BE5002EEBA4 /* StepperView.swift in Sources */,
+				51089B3427B75A1B00EA3B3A /* SampleMenuView.swift in Sources */,
 				51EA373427B6593F002EEBA4 /* SampleImageBackgroundView.swift in Sources */,
+				51089B5227B763BC00EA3B3A /* AsyncImageView.swift in Sources */,
 				51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */,
 				51089B2027B6946900EA3B3A /* DatePickerView.swift in Sources */,
 				51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */,
@@ -453,6 +515,8 @@
 				51EA372A27B64206002EEBA4 /* FormView.swift in Sources */,
 				51089B2A27B6970B00EA3B3A /* SampleEmptyView.swift in Sources */,
 				51EA371E27B63E42002EEBA4 /* Weather.swift in Sources */,
+				51089B3827B75AEA00EA3B3A /* SampleDividerView.swift in Sources */,
+				51089B3A27B75B2600EA3B3A /* SampleProgressView.swift in Sources */,
 				51089B2827B6962000EA3B3A /* SampleGroupBoxView.swift in Sources */,
 				51EA372327B63EE1002EEBA4 /* HomeViewController.swift in Sources */,
 			);
