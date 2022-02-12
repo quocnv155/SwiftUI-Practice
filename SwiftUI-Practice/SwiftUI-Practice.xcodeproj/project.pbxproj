@@ -42,6 +42,20 @@
 		51089B4E27B7627900EA3B3A /* SampleRotatedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4D27B7627900EA3B3A /* SampleRotatedShape.swift */; };
 		51089B5027B7628D00EA3B3A /* DrapInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B4F27B7628D00EA3B3A /* DrapInfoView.swift */; };
 		51089B5227B763BC00EA3B3A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5127B763BC00EA3B3A /* AsyncImageView.swift */; };
+		51089B5527B7655400EA3B3A /* SampleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5427B7655400EA3B3A /* SampleScrollView.swift */; };
+		51089B5727B7656C00EA3B3A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5627B7656C00EA3B3A /* ProfileView.swift */; };
+		51089B5927B765C800EA3B3A /* SampleLazyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5827B765C800EA3B3A /* SampleLazyStackView.swift */; };
+		51089B5B27B765E000EA3B3A /* SampleHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5A27B765E000EA3B3A /* SampleHStackView.swift */; };
+		51089B5D27B765F600EA3B3A /* SampleZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5C27B765F600EA3B3A /* SampleZStackView.swift */; };
+		51089B6027B7661F00EA3B3A /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B5F27B7661F00EA3B3A /* ItemView.swift */; };
+		51089B6227B77BE600EA3B3A /* MonstarlabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6127B77BE600EA3B3A /* MonstarlabView.swift */; };
+		51089B6427B7879D00EA3B3A /* ProfileViewWithOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6327B7879D00EA3B3A /* ProfileViewWithOverlay.swift */; };
+		51089B6627B7886E00EA3B3A /* SampleAdaptiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6527B7886E00EA3B3A /* SampleAdaptiveView.swift */; };
+		51089B6827B7897700EA3B3A /* LazyVerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6727B7897700EA3B3A /* LazyVerticalGridView.swift */; };
+		51089B6A27B789EA00EA3B3A /* LazyHorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6927B789EA00EA3B3A /* LazyHorizontalGridView.swift */; };
+		51089B6C27B78A1000EA3B3A /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6B27B78A1000EA3B3A /* GeometryReaderView.swift */; };
+		51089B6E27B78A6B00EA3B3A /* ScrollProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6D27B78A6B00EA3B3A /* ScrollProxyView.swift */; };
+		51089B7027B78AAC00EA3B3A /* ToolBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6F27B78AAC00EA3B3A /* ToolBarItemView.swift */; };
 		51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */; };
 		51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36F027B63DD4002EEBA4 /* ContentView.swift */; };
 		51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA36F227B63DD5002EEBA4 /* Assets.xcassets */; };
@@ -120,6 +134,20 @@
 		51089B4D27B7627900EA3B3A /* SampleRotatedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRotatedShape.swift; sourceTree = "<group>"; };
 		51089B4F27B7628D00EA3B3A /* DrapInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrapInfoView.swift; sourceTree = "<group>"; };
 		51089B5127B763BC00EA3B3A /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		51089B5427B7655400EA3B3A /* SampleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleScrollView.swift; sourceTree = "<group>"; };
+		51089B5627B7656C00EA3B3A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		51089B5827B765C800EA3B3A /* SampleLazyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLazyStackView.swift; sourceTree = "<group>"; };
+		51089B5A27B765E000EA3B3A /* SampleHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHStackView.swift; sourceTree = "<group>"; };
+		51089B5C27B765F600EA3B3A /* SampleZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleZStackView.swift; sourceTree = "<group>"; };
+		51089B5F27B7661F00EA3B3A /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		51089B6127B77BE600EA3B3A /* MonstarlabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstarlabView.swift; sourceTree = "<group>"; };
+		51089B6327B7879D00EA3B3A /* ProfileViewWithOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewWithOverlay.swift; sourceTree = "<group>"; };
+		51089B6527B7886E00EA3B3A /* SampleAdaptiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAdaptiveView.swift; sourceTree = "<group>"; };
+		51089B6727B7897700EA3B3A /* LazyVerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVerticalGridView.swift; sourceTree = "<group>"; };
+		51089B6927B789EA00EA3B3A /* LazyHorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHorizontalGridView.swift; sourceTree = "<group>"; };
+		51089B6B27B78A1000EA3B3A /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		51089B6D27B78A6B00EA3B3A /* ScrollProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProxyView.swift; sourceTree = "<group>"; };
+		51089B6F27B78AAC00EA3B3A /* ToolBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarItemView.swift; sourceTree = "<group>"; };
 		51EA36EB27B63DD4002EEBA4 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		51EA36F027B63DD4002EEBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +220,35 @@
 			path = ChildViews;
 			sourceTree = "<group>";
 		};
+		51089B5327B764F100EA3B3A /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				51089B5E27B7660B00EA3B3A /* CustomView */,
+				51089B5427B7655400EA3B3A /* SampleScrollView.swift */,
+				51089B5827B765C800EA3B3A /* SampleLazyStackView.swift */,
+				51089B5A27B765E000EA3B3A /* SampleHStackView.swift */,
+				51089B5C27B765F600EA3B3A /* SampleZStackView.swift */,
+				51089B6127B77BE600EA3B3A /* MonstarlabView.swift */,
+				51089B6327B7879D00EA3B3A /* ProfileViewWithOverlay.swift */,
+				51089B6527B7886E00EA3B3A /* SampleAdaptiveView.swift */,
+				51089B6727B7897700EA3B3A /* LazyVerticalGridView.swift */,
+				51089B6927B789EA00EA3B3A /* LazyHorizontalGridView.swift */,
+				51089B6B27B78A1000EA3B3A /* GeometryReaderView.swift */,
+				51089B6D27B78A6B00EA3B3A /* ScrollProxyView.swift */,
+				51089B6F27B78AAC00EA3B3A /* ToolBarItemView.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		51089B5E27B7660B00EA3B3A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				51089B5F27B7661F00EA3B3A /* ItemView.swift */,
+				51089B5627B7656C00EA3B3A /* ProfileView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		51EA36E227B63DD4002EEBA4 = {
 			isa = PBXGroup;
 			children = (
@@ -215,9 +272,10 @@
 		51EA36ED27B63DD4002EEBA4 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				51EA372D27B64460002EEBA4 /* AwesomeSample */,
 				51EA372627B640EC002EEBA4 /* Controls */,
 				51EA371F27B63E92002EEBA4 /* Adapter */,
+				51089B5327B764F100EA3B3A /* Layouts */,
+				51EA372D27B64460002EEBA4 /* AwesomeSample */,
 				51EA371827B63E09002EEBA4 /* Models */,
 				51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */,
 				51EA36F027B63DD4002EEBA4 /* ContentView.swift */,
@@ -473,38 +531,50 @@
 				51089B1E27B6934000EA3B3A /* ChildViewGroup.swift in Sources */,
 				51EA372527B63FF4002EEBA4 /* HomeSample.swift in Sources */,
 				51089B3C27B75C4300EA3B3A /* SampleTabView.swift in Sources */,
+				51089B5527B7655400EA3B3A /* SampleScrollView.swift in Sources */,
 				51089B3627B75AB000EA3B3A /* SampleColorPickerView.swift in Sources */,
 				51EA373227B6588A002EEBA4 /* SampleButtonView.swift in Sources */,
 				51EA373827B6597B002EEBA4 /* SampleSliderView.swift in Sources */,
 				51EA371C27B63E39002EEBA4 /* FileItem.swift in Sources */,
 				51089B4627B7621600EA3B3A /* AngularGradientView.swift in Sources */,
+				51089B5B27B765E000EA3B3A /* SampleHStackView.swift in Sources */,
 				51089B1D27B6934000EA3B3A /* ChildTossView.swift in Sources */,
 				51089B3227B758BA00EA3B3A /* SampleSectionView.swift in Sources */,
 				51089B1227B692F800EA3B3A /* SampleControlScrollView.swift in Sources */,
+				51089B6827B7897700EA3B3A /* LazyVerticalGridView.swift in Sources */,
 				51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */,
 				51089B4E27B7627900EA3B3A /* SampleRotatedShape.swift in Sources */,
 				51089B2227B694B500EA3B3A /* SampleLabelView.swift in Sources */,
 				51089B4C27B7626600EA3B3A /* SampleGradientView.swift in Sources */,
+				51089B6E27B78A6B00EA3B3A /* ScrollProxyView.swift in Sources */,
 				51089B4827B7623000EA3B3A /* SampleAngleView.swift in Sources */,
+				51089B5927B765C800EA3B3A /* SampleLazyStackView.swift in Sources */,
 				51EA373C27B65C1C002EEBA4 /* SampleLoginView.swift in Sources */,
 				51089B2627B6956400EA3B3A /* SampleEditButtonView.swift in Sources */,
 				51089B4427B7620000EA3B3A /* SampleCamsuleView.swift in Sources */,
 				51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */,
+				51089B5D27B765F600EA3B3A /* SampleZStackView.swift in Sources */,
 				51EA371A27B63E1C002EEBA4 /* Profile.swift in Sources */,
 				51089B0C27B68A2E00EA3B3A /* TextFieldView.swift in Sources */,
 				51EA373627B65964002EEBA4 /* ToggleView.swift in Sources */,
 				51089B4227B761E700EA3B3A /* SampleColorView.swift in Sources */,
+				51089B5727B7656C00EA3B3A /* ProfileView.swift in Sources */,
 				51089B1527B6932700EA3B3A /* WeatherRow.swift in Sources */,
 				51EA372827B64117002EEBA4 /* SampleSpacerView.swift in Sources */,
+				51089B6627B7886E00EA3B3A /* SampleAdaptiveView.swift in Sources */,
 				51EA373027B645DC002EEBA4 /* MatrixRainView.swift in Sources */,
 				51089B4027B7619E00EA3B3A /* SampleAnyView.swift in Sources */,
 				51089B5027B7628D00EA3B3A /* DrapInfoView.swift in Sources */,
 				51089B2C27B698BF00EA3B3A /* SampleOutlineGroupView.swift in Sources */,
+				51089B6227B77BE600EA3B3A /* MonstarlabView.swift in Sources */,
 				51089B0E27B691A800EA3B3A /* SamplePickerView.swift in Sources */,
 				51089B3E27B75CFC00EA3B3A /* SamplePageView.swift in Sources */,
 				51089B1C27B6934000EA3B3A /* ChildViewBuilder.swift in Sources */,
 				51EA373A27B65BE5002EEBA4 /* StepperView.swift in Sources */,
+				51089B6C27B78A1000EA3B3A /* GeometryReaderView.swift in Sources */,
 				51089B3427B75A1B00EA3B3A /* SampleMenuView.swift in Sources */,
+				51089B6027B7661F00EA3B3A /* ItemView.swift in Sources */,
+				51089B6427B7879D00EA3B3A /* ProfileViewWithOverlay.swift in Sources */,
 				51EA373427B6593F002EEBA4 /* SampleImageBackgroundView.swift in Sources */,
 				51089B5227B763BC00EA3B3A /* AsyncImageView.swift in Sources */,
 				51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */,
@@ -512,7 +582,9 @@
 				51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */,
 				51089B1027B692A900EA3B3A /* SampleTextViewView.swift in Sources */,
 				51089B1B27B6934000EA3B3A /* ChildAnyView.swift in Sources */,
+				51089B6A27B789EA00EA3B3A /* LazyHorizontalGridView.swift in Sources */,
 				51EA372A27B64206002EEBA4 /* FormView.swift in Sources */,
+				51089B7027B78AAC00EA3B3A /* ToolBarItemView.swift in Sources */,
 				51089B2A27B6970B00EA3B3A /* SampleEmptyView.swift in Sources */,
 				51EA371E27B63E42002EEBA4 /* Weather.swift in Sources */,
 				51089B3827B75AEA00EA3B3A /* SampleDividerView.swift in Sources */,
