@@ -56,6 +56,14 @@
 		51089B6C27B78A1000EA3B3A /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6B27B78A1000EA3B3A /* GeometryReaderView.swift */; };
 		51089B6E27B78A6B00EA3B3A /* ScrollProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6D27B78A6B00EA3B3A /* ScrollProxyView.swift */; };
 		51089B7027B78AAC00EA3B3A /* ToolBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B6F27B78AAC00EA3B3A /* ToolBarItemView.swift */; };
+		51089B7327B78B3700EA3B3A /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7227B78B3700EA3B3A /* ActionSheetView.swift */; };
+		51089B7527B78B6100EA3B3A /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7427B78B6100EA3B3A /* AlertView.swift */; };
+		51089B7727B78B8400EA3B3A /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7627B78B8400EA3B3A /* PopoverView.swift */; };
+		51089B7927B78BB100EA3B3A /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7827B78BB100EA3B3A /* NavigationLinkView.swift */; };
+		51089B7B27B78BDD00EA3B3A /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7A27B78BDD00EA3B3A /* FullScreenView.swift */; };
+		51089B7D27B78C0100EA3B3A /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7C27B78C0100EA3B3A /* SheetView.swift */; };
+		51089B8127B78C3A00EA3B3A /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7F27B78C3A00EA3B3A /* Downloader.swift */; };
+		51089B8227B78C3A00EA3B3A /* DrButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B8027B78C3A00EA3B3A /* DrButtonViewModifier.swift */; };
 		51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */; };
 		51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36F027B63DD4002EEBA4 /* ContentView.swift */; };
 		51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA36F227B63DD5002EEBA4 /* Assets.xcassets */; };
@@ -148,6 +156,14 @@
 		51089B6B27B78A1000EA3B3A /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		51089B6D27B78A6B00EA3B3A /* ScrollProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProxyView.swift; sourceTree = "<group>"; };
 		51089B6F27B78AAC00EA3B3A /* ToolBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarItemView.swift; sourceTree = "<group>"; };
+		51089B7227B78B3700EA3B3A /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		51089B7427B78B6100EA3B3A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		51089B7627B78B8400EA3B3A /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		51089B7827B78BB100EA3B3A /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		51089B7A27B78BDD00EA3B3A /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
+		51089B7C27B78C0100EA3B3A /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		51089B7F27B78C3A00EA3B3A /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		51089B8027B78C3A00EA3B3A /* DrButtonViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrButtonViewModifier.swift; sourceTree = "<group>"; };
 		51EA36EB27B63DD4002EEBA4 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		51EA36F027B63DD4002EEBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -249,6 +265,28 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		51089B7127B78B2B00EA3B3A /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				51089B7227B78B3700EA3B3A /* ActionSheetView.swift */,
+				51089B7C27B78C0100EA3B3A /* SheetView.swift */,
+				51089B7427B78B6100EA3B3A /* AlertView.swift */,
+				51089B7627B78B8400EA3B3A /* PopoverView.swift */,
+				51089B7827B78BB100EA3B3A /* NavigationLinkView.swift */,
+				51089B7A27B78BDD00EA3B3A /* FullScreenView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		51089B7E27B78C3A00EA3B3A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				51089B7F27B78C3A00EA3B3A /* Downloader.swift */,
+				51089B8027B78C3A00EA3B3A /* DrButtonViewModifier.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		51EA36E227B63DD4002EEBA4 = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +310,8 @@
 		51EA36ED27B63DD4002EEBA4 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				51089B7E27B78C3A00EA3B3A /* Common */,
+				51089B7127B78B2B00EA3B3A /* Routes */,
 				51EA372627B640EC002EEBA4 /* Controls */,
 				51EA371F27B63E92002EEBA4 /* Adapter */,
 				51089B5327B764F100EA3B3A /* Layouts */,
@@ -531,6 +571,7 @@
 				51089B1E27B6934000EA3B3A /* ChildViewGroup.swift in Sources */,
 				51EA372527B63FF4002EEBA4 /* HomeSample.swift in Sources */,
 				51089B3C27B75C4300EA3B3A /* SampleTabView.swift in Sources */,
+				51089B7727B78B8400EA3B3A /* PopoverView.swift in Sources */,
 				51089B5527B7655400EA3B3A /* SampleScrollView.swift in Sources */,
 				51089B3627B75AB000EA3B3A /* SampleColorPickerView.swift in Sources */,
 				51EA373227B6588A002EEBA4 /* SampleButtonView.swift in Sources */,
@@ -547,6 +588,7 @@
 				51089B2227B694B500EA3B3A /* SampleLabelView.swift in Sources */,
 				51089B4C27B7626600EA3B3A /* SampleGradientView.swift in Sources */,
 				51089B6E27B78A6B00EA3B3A /* ScrollProxyView.swift in Sources */,
+				51089B7327B78B3700EA3B3A /* ActionSheetView.swift in Sources */,
 				51089B4827B7623000EA3B3A /* SampleAngleView.swift in Sources */,
 				51089B5927B765C800EA3B3A /* SampleLazyStackView.swift in Sources */,
 				51EA373C27B65C1C002EEBA4 /* SampleLoginView.swift in Sources */,
@@ -557,17 +599,21 @@
 				51EA371A27B63E1C002EEBA4 /* Profile.swift in Sources */,
 				51089B0C27B68A2E00EA3B3A /* TextFieldView.swift in Sources */,
 				51EA373627B65964002EEBA4 /* ToggleView.swift in Sources */,
+				51089B7527B78B6100EA3B3A /* AlertView.swift in Sources */,
 				51089B4227B761E700EA3B3A /* SampleColorView.swift in Sources */,
 				51089B5727B7656C00EA3B3A /* ProfileView.swift in Sources */,
 				51089B1527B6932700EA3B3A /* WeatherRow.swift in Sources */,
 				51EA372827B64117002EEBA4 /* SampleSpacerView.swift in Sources */,
 				51089B6627B7886E00EA3B3A /* SampleAdaptiveView.swift in Sources */,
 				51EA373027B645DC002EEBA4 /* MatrixRainView.swift in Sources */,
+				51089B8227B78C3A00EA3B3A /* DrButtonViewModifier.swift in Sources */,
 				51089B4027B7619E00EA3B3A /* SampleAnyView.swift in Sources */,
 				51089B5027B7628D00EA3B3A /* DrapInfoView.swift in Sources */,
 				51089B2C27B698BF00EA3B3A /* SampleOutlineGroupView.swift in Sources */,
 				51089B6227B77BE600EA3B3A /* MonstarlabView.swift in Sources */,
 				51089B0E27B691A800EA3B3A /* SamplePickerView.swift in Sources */,
+				51089B7D27B78C0100EA3B3A /* SheetView.swift in Sources */,
+				51089B7927B78BB100EA3B3A /* NavigationLinkView.swift in Sources */,
 				51089B3E27B75CFC00EA3B3A /* SamplePageView.swift in Sources */,
 				51089B1C27B6934000EA3B3A /* ChildViewBuilder.swift in Sources */,
 				51EA373A27B65BE5002EEBA4 /* StepperView.swift in Sources */,
@@ -577,7 +623,9 @@
 				51089B6427B7879D00EA3B3A /* ProfileViewWithOverlay.swift in Sources */,
 				51EA373427B6593F002EEBA4 /* SampleImageBackgroundView.swift in Sources */,
 				51089B5227B763BC00EA3B3A /* AsyncImageView.swift in Sources */,
+				51089B8127B78C3A00EA3B3A /* Downloader.swift in Sources */,
 				51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */,
+				51089B7B27B78BDD00EA3B3A /* FullScreenView.swift in Sources */,
 				51089B2027B6946900EA3B3A /* DatePickerView.swift in Sources */,
 				51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */,
 				51089B1027B692A900EA3B3A /* SampleTextViewView.swift in Sources */,
