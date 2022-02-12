@@ -24,6 +24,7 @@
 		51089B2A27B6970B00EA3B3A /* SampleEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2927B6970B00EA3B3A /* SampleEmptyView.swift */; };
 		51089B2C27B698BF00EA3B3A /* SampleOutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2B27B698BF00EA3B3A /* SampleOutlineGroupView.swift */; };
 		51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2D27B7564900EA3B3A /* SampleLinkView.swift */; };
+		51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B2F27B756B700EA3B3A /* SampleListView.swift */; };
 		51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */; };
 		51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36F027B63DD4002EEBA4 /* ContentView.swift */; };
 		51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA36F227B63DD5002EEBA4 /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 		51089B2927B6970B00EA3B3A /* SampleEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEmptyView.swift; sourceTree = "<group>"; };
 		51089B2B27B698BF00EA3B3A /* SampleOutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleOutlineGroupView.swift; sourceTree = "<group>"; };
 		51089B2D27B7564900EA3B3A /* SampleLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLinkView.swift; sourceTree = "<group>"; };
+		51089B2F27B756B700EA3B3A /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
 		51EA36EB27B63DD4002EEBA4 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		51EA36F027B63DD4002EEBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				51089B2927B6970B00EA3B3A /* SampleEmptyView.swift */,
 				51089B2B27B698BF00EA3B3A /* SampleOutlineGroupView.swift */,
 				51089B2D27B7564900EA3B3A /* SampleLinkView.swift */,
+				51089B2F27B756B700EA3B3A /* SampleListView.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				51089B2227B694B500EA3B3A /* SampleLabelView.swift in Sources */,
 				51EA373C27B65C1C002EEBA4 /* SampleLoginView.swift in Sources */,
 				51089B2627B6956400EA3B3A /* SampleEditButtonView.swift in Sources */,
+				51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */,
 				51EA371A27B63E1C002EEBA4 /* Profile.swift in Sources */,
 				51089B0C27B68A2E00EA3B3A /* TextFieldView.swift in Sources */,
 				51EA373627B65964002EEBA4 /* ToggleView.swift in Sources */,
