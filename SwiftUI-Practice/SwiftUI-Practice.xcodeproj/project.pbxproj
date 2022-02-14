@@ -64,6 +64,13 @@
 		51089B7D27B78C0100EA3B3A /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7C27B78C0100EA3B3A /* SheetView.swift */; };
 		51089B8127B78C3A00EA3B3A /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B7F27B78C3A00EA3B3A /* Downloader.swift */; };
 		51089B8227B78C3A00EA3B3A /* DrButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B8027B78C3A00EA3B3A /* DrButtonViewModifier.swift */; };
+		51089B8627B7F8CF00EA3B3A /* SpecialistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B8527B7F8CF00EA3B3A /* SpecialistCell.swift */; };
+		51089B8927B7F8FC00EA3B3A /* DrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B8827B7F8FC00EA3B3A /* DrView.swift */; };
+		51089B8B27B7F91100EA3B3A /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B8A27B7F91100EA3B3A /* DarkModeView.swift */; };
+		51089B8D27B7F92200EA3B3A /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B8C27B7F92200EA3B3A /* LanguageView.swift */; };
+		51089B9227B7F9EA00EA3B3A /* DrugSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B9127B7F9EA00EA3B3A /* DrugSearchPresenter.swift */; };
+		51089B9427B7F9FA00EA3B3A /* SpecialistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51089B9327B7F9FA00EA3B3A /* SpecialistDetailView.swift */; };
+		51089B9527B800F800EA3B3A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51089B9727B800F800EA3B3A /* Localizable.strings */; };
 		51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */; };
 		51EA36F127B63DD4002EEBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA36F027B63DD4002EEBA4 /* ContentView.swift */; };
 		51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EA36F227B63DD5002EEBA4 /* Assets.xcassets */; };
@@ -164,6 +171,14 @@
 		51089B7C27B78C0100EA3B3A /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		51089B7F27B78C3A00EA3B3A /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		51089B8027B78C3A00EA3B3A /* DrButtonViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrButtonViewModifier.swift; sourceTree = "<group>"; };
+		51089B8527B7F8CF00EA3B3A /* SpecialistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialistCell.swift; sourceTree = "<group>"; };
+		51089B8827B7F8FC00EA3B3A /* DrView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrView.swift; sourceTree = "<group>"; };
+		51089B8A27B7F91100EA3B3A /* DarkModeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
+		51089B8C27B7F92200EA3B3A /* LanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		51089B9127B7F9EA00EA3B3A /* DrugSearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugSearchPresenter.swift; sourceTree = "<group>"; };
+		51089B9327B7F9FA00EA3B3A /* SpecialistDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialistDetailView.swift; sourceTree = "<group>"; };
+		51089B9627B800F800EA3B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51089B9827B800FB00EA3B3A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		51EA36EB27B63DD4002EEBA4 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		51EA36F027B63DD4002EEBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -281,10 +296,48 @@
 		51089B7E27B78C3A00EA3B3A /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				51089B8E27B7F92900EA3B3A /* Resources */,
 				51089B7F27B78C3A00EA3B3A /* Downloader.swift */,
 				51089B8027B78C3A00EA3B3A /* DrButtonViewModifier.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		51089B8327B7F8A600EA3B3A /* LivePreview */ = {
+			isa = PBXGroup;
+			children = (
+				51089B8C27B7F92200EA3B3A /* LanguageView.swift */,
+				51089B8A27B7F91100EA3B3A /* DarkModeView.swift */,
+				51089B8427B7F8BD00EA3B3A /* Cell */,
+			);
+			path = LivePreview;
+			sourceTree = "<group>";
+		};
+		51089B8427B7F8BD00EA3B3A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				51089B8527B7F8CF00EA3B3A /* SpecialistCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		51089B8727B7F8D600EA3B3A /* DrJoySample */ = {
+			isa = PBXGroup;
+			children = (
+				51089B9327B7F9FA00EA3B3A /* SpecialistDetailView.swift */,
+				51089B9127B7F9EA00EA3B3A /* DrugSearchPresenter.swift */,
+				51089B8827B7F8FC00EA3B3A /* DrView.swift */,
+			);
+			path = DrJoySample;
+			sourceTree = "<group>";
+		};
+		51089B8E27B7F92900EA3B3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51089B9727B800F800EA3B3A /* Localizable.strings */,
+				51EA36F227B63DD5002EEBA4 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		51EA36E227B63DD4002EEBA4 = {
@@ -310,6 +363,8 @@
 		51EA36ED27B63DD4002EEBA4 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				51089B8727B7F8D600EA3B3A /* DrJoySample */,
+				51089B8327B7F8A600EA3B3A /* LivePreview */,
 				51089B7E27B78C3A00EA3B3A /* Common */,
 				51089B7127B78B2B00EA3B3A /* Routes */,
 				51EA372627B640EC002EEBA4 /* Controls */,
@@ -319,7 +374,6 @@
 				51EA371827B63E09002EEBA4 /* Models */,
 				51EA36EE27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift */,
 				51EA36F027B63DD4002EEBA4 /* ContentView.swift */,
-				51EA36F227B63DD5002EEBA4 /* Assets.xcassets */,
 				51EA36F427B63DD5002EEBA4 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -520,6 +574,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 51EA36E227B63DD4002EEBA4;
 			productRefGroup = 51EA36EC27B63DD4002EEBA4 /* Products */;
@@ -539,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51EA36F627B63DD5002EEBA4 /* Preview Assets.xcassets in Resources */,
+				51089B9527B800F800EA3B3A /* Localizable.strings in Resources */,
 				51EA372127B63ED0002EEBA4 /* HomeVC.storyboard in Resources */,
 				51EA36F327B63DD5002EEBA4 /* Assets.xcassets in Resources */,
 			);
@@ -569,6 +625,7 @@
 				51089B4A27B7624800EA3B3A /* SampleArcView.swift in Sources */,
 				51EA372C27B64370002EEBA4 /* ImageView.swift in Sources */,
 				51089B1E27B6934000EA3B3A /* ChildViewGroup.swift in Sources */,
+				51089B9427B7F9FA00EA3B3A /* SpecialistDetailView.swift in Sources */,
 				51EA372527B63FF4002EEBA4 /* HomeSample.swift in Sources */,
 				51089B3C27B75C4300EA3B3A /* SampleTabView.swift in Sources */,
 				51089B7727B78B8400EA3B3A /* PopoverView.swift in Sources */,
@@ -593,6 +650,7 @@
 				51089B5927B765C800EA3B3A /* SampleLazyStackView.swift in Sources */,
 				51EA373C27B65C1C002EEBA4 /* SampleLoginView.swift in Sources */,
 				51089B2627B6956400EA3B3A /* SampleEditButtonView.swift in Sources */,
+				51089B8D27B7F92200EA3B3A /* LanguageView.swift in Sources */,
 				51089B4427B7620000EA3B3A /* SampleCamsuleView.swift in Sources */,
 				51089B3027B756B700EA3B3A /* SampleListView.swift in Sources */,
 				51089B5D27B765F600EA3B3A /* SampleZStackView.swift in Sources */,
@@ -607,6 +665,7 @@
 				51089B6627B7886E00EA3B3A /* SampleAdaptiveView.swift in Sources */,
 				51EA373027B645DC002EEBA4 /* MatrixRainView.swift in Sources */,
 				51089B8227B78C3A00EA3B3A /* DrButtonViewModifier.swift in Sources */,
+				51089B8B27B7F91100EA3B3A /* DarkModeView.swift in Sources */,
 				51089B4027B7619E00EA3B3A /* SampleAnyView.swift in Sources */,
 				51089B5027B7628D00EA3B3A /* DrapInfoView.swift in Sources */,
 				51089B2C27B698BF00EA3B3A /* SampleOutlineGroupView.swift in Sources */,
@@ -614,6 +673,7 @@
 				51089B0E27B691A800EA3B3A /* SamplePickerView.swift in Sources */,
 				51089B7D27B78C0100EA3B3A /* SheetView.swift in Sources */,
 				51089B7927B78BB100EA3B3A /* NavigationLinkView.swift in Sources */,
+				51089B9227B7F9EA00EA3B3A /* DrugSearchPresenter.swift in Sources */,
 				51089B3E27B75CFC00EA3B3A /* SamplePageView.swift in Sources */,
 				51089B1C27B6934000EA3B3A /* ChildViewBuilder.swift in Sources */,
 				51EA373A27B65BE5002EEBA4 /* StepperView.swift in Sources */,
@@ -626,6 +686,7 @@
 				51089B8127B78C3A00EA3B3A /* Downloader.swift in Sources */,
 				51EA36EF27B63DD4002EEBA4 /* SwiftUI_PracticeApp.swift in Sources */,
 				51089B7B27B78BDD00EA3B3A /* FullScreenView.swift in Sources */,
+				51089B8627B7F8CF00EA3B3A /* SpecialistCell.swift in Sources */,
 				51089B2027B6946900EA3B3A /* DatePickerView.swift in Sources */,
 				51089B2E27B7564900EA3B3A /* SampleLinkView.swift in Sources */,
 				51089B1027B692A900EA3B3A /* SampleTextViewView.swift in Sources */,
@@ -636,6 +697,7 @@
 				51089B2A27B6970B00EA3B3A /* SampleEmptyView.swift in Sources */,
 				51EA371E27B63E42002EEBA4 /* Weather.swift in Sources */,
 				51089B3827B75AEA00EA3B3A /* SampleDividerView.swift in Sources */,
+				51089B8927B7F8FC00EA3B3A /* DrView.swift in Sources */,
 				51089B3A27B75B2600EA3B3A /* SampleProgressView.swift in Sources */,
 				51089B2827B6962000EA3B3A /* SampleGroupBoxView.swift in Sources */,
 				51EA372327B63EE1002EEBA4 /* HomeViewController.swift in Sources */,
@@ -673,6 +735,18 @@
 			targetProxy = 51EA370627B63DD6002EEBA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51089B9727B800F800EA3B3A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51089B9627B800F800EA3B3A /* en */,
+				51089B9827B800FB00EA3B3A /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		51EA370D27B63DD6002EEBA4 /* Debug */ = {
